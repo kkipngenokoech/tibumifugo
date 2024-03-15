@@ -14,9 +14,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ToggleColorMode from "./toggleColor";
 
 const logoStyle = {
-  width: "140px",
+  width: "70px",
   height: "auto",
   cursor: "pointer",
+  filter: "drop-shadow(0 0 1px rgba(0, 0, 0, 0.7))",
 };
 
 function AppAppBar({ mode, toggleColorMode }) {
@@ -84,9 +85,10 @@ function AppAppBar({ mode, toggleColorMode }) {
               }}
             >
               <img
-                src={
-                  "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/61f12e6faf73568658154dae_SitemarkDefault.svg"
-                }
+                src={"vet.jpg"}
+                // src={
+                //   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/61f12e6faf73568658154dae_SitemarkDefault.svg"
+                // }
                 style={logoStyle}
                 alt="logo of sitemark"
               />
