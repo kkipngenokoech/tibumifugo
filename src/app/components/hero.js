@@ -10,7 +10,9 @@ import Typography from "@mui/material/Typography";
 import MultiActionAreaCard from "./card";
 import animalsData from './data.json'
 
+
 export default function Hero() {
+    
   return (
     <Box
       id="hero"
@@ -111,7 +113,7 @@ export default function Hero() {
           {animalsData.animals.map((animal, index) => (
             <MultiActionAreaCard
               key={index}
-              animal={animal} // Pass the animal data to the MultiActionAreaCard component
+                  animal={animal} 
             />
           ))}
         </Box>
