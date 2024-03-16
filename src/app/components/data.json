@@ -1,113 +1,183 @@
 {
   "animals": [
     {
-      "name": "Cow",
+      "name": "Cat",
       "description": "Large domesticated herbivores known for their production of milk.",
       "symptoms": [
-        "Decreased milk production",
-        "Loss of appetite",
-        "Lameness",
-        "Difficulty breathing",
-        "Swelling or bloating"
-      ]
-    },
-    {
-      "name": "Cat",
-      "description": "Small carnivorous mammals kept as pets for companionship.",
-      "symptoms": [
-        "Vomiting",
-        "Diarrhea",
-        "Lethargy",
-        "Urinating outside the litter box",
-        "Excessive grooming"
+        {
+          "symptoms": ["Fever", "Running Nose", "Facial sores"],
+          "disease": ["flu"]
+        },
+        {
+          "symptoms": ["Weight loss", "Vomiting", "Scooting"],
+          "disease": ["worms"]
+        },
+        {
+          "symptoms": ["Eye Discharge", "Ulcers on the tongue", "Drooling"],
+          "disease": ["feline calicivirus"]
+        }
       ]
     },
     {
       "name": "Dog",
-      "description": "Domesticated carnivorous mammals known for their loyalty and companionship.",
+      "description": "Small carnivorous mammals kept as pets for companionship.",
       "symptoms": [
-        "Coughing",
-        "Limping",
-        "Excessive panting",
-        "Aggression",
-        "Excessive thirst"
+        {
+          "symptoms": ["Vomiting", "Diarrhea", "Lethargy"],
+          "disease": ["distemper"]
+        },
+        {
+          "symptoms": ["itching", "Pale Gums", "Skin irritation"],
+          "disease": ["fleas"]
+        },
+        {
+          "symptoms": ["Hot Hooves", "Reluctance to get up", "Cresty neck"],
+          "disease": ["laminitis"]
+        }
       ]
     },
     {
       "name": "Horse",
+      "description": "Domesticated carnivorous mammals known for their loyalty and companionship.",
+      "symptoms": [
+        {
+          "symptoms": ["Abdominal pain", "Vocalization", "Rolling on the Ground"],
+          "disease": ["Colic"]
+        },
+        {
+          "symptoms": ["Muscle stiffness", "Difficulty in swallowing", "Seizures"],
+          "disease": ["Tetanus"]
+        },
+        {
+          "symptoms": ["Hot Hooves", "Reluctance to get up", "Cresty neck"],
+          "disease": ["laminitis"]
+        }
+      ]
+    },
+    {
+      "name": "Cow",
       "description": "Large hoofed mammals used for riding, racing, and work purposes.",
       "symptoms": [
-        "Colic",
-        "Lameness",
-        "Weight loss",
-        "Difficulty chewing or swallowing",
-        "Sweating excessively"
+        {
+          "symptoms": ["Colic", "Lameness", "Weight loss"],
+          "disease": ["Colic"]
+        },
+        {
+          "symptoms": ["Difficulty chewing or swallowing", "Sweating excessively", "Excessive salivation"],
+          "disease": ["Rabies"]
+        },
+        {
+          "symptoms": ["Rapid breathing", "Swollen abdomen", "Unusual head tilting"],
+          "disease": ["Bloat"]
+        }
       ]
     },
     {
       "name": "Pig",
       "description": "Domesticated omnivorous mammals raised for meat production.",
       "symptoms": [
-        "Fever",
-        "Coughing",
-        "Diarrhea",
-        "Lethargy",
-        "Loss of appetite"
+        {
+          "symptoms": ["Coughing", "Loss of coordination", "Excessive wool loss"],
+          "disease": ["flu"]
+        },
+        {
+          "symptoms": ["Weight loss", "Swollen joints", "Hoof problems"],
+          "disease": ["arthritis"]
+        },
+        {
+          "symptoms": ["Difficulty giving birth", "Chronic diarrhea", "Inability to stand"],
+          "disease": ["reproductive problems"]
+        }
       ]
     },
     {
       "name": "Sheep",
       "description": "Domesticated ruminant mammals raised for their wool, meat, and milk.",
       "symptoms": [
-        "Coughing",
-        "Loss of coordination",
-        "Excessive wool loss",
-        "Weight loss",
-        "Swollen joints"
+        {
+          "symptoms": ["Coughing", "Loss of coordination", "Excessive wool loss"],
+          "disease": ["flu"]
+        },
+        {
+          "symptoms": ["Weight loss", "Swollen joints", "Hoof problems"],
+          "disease": ["arthritis"]
+        },
+        {
+          "symptoms": ["Difficulty giving birth", "Chronic diarrhea", "Inability to stand"],
+          "disease": ["reproductive problems"]
+        }
       ]
     },
     {
       "name": "Goat",
       "description": "Domesticated hoofed mammals raised for milk, meat, and fiber.",
       "symptoms": [
-        "Bloat",
-        "Lameness",
-        "Diarrhea",
-        "Excessive salivation",
-        "Rapid breathing"
+        {
+          "symptoms": ["Coughing", "Loss of coordination", "Excessive wool loss"],
+          "disease": ["flu"]
+        },
+        {
+          "symptoms": ["Weight loss", "Swollen joints", "Hoof problems"],
+          "disease": ["arthritis"]
+        },
+        {
+          "symptoms": ["Difficulty giving birth", "Chronic diarrhea", "Inability to stand"],
+          "disease": ["reproductive problems"]
+        }
       ]
     },
     {
       "name": "Chicken",
       "description": "Domesticated birds primarily kept for their eggs and meat.",
       "symptoms": [
-        "Decreased egg production",
-        "Swollen eyes",
-        "Difficulty breathing",
-        "Lethargy",
-        "Loss of appetite"
+        {
+          "symptoms": ["Lethargy", "Decreased egg production", "Pale comb"],
+          "disease": ["respiratory problems"]
+        },
+        {
+          "symptoms": ["Difficulty walking", "Swollen abdomen", "Weight loss"],
+          "disease": ["reproductive problems"]
+        },
+        {
+          "symptoms": ["Weakness", "Diarrhea", "Feather loss"],
+          "disease": ["parasites"]
+        }
       ]
     },
     {
       "name": "Rabbit",
       "description": "Small mammals known for their long ears and hopping gait, often kept as pets.",
       "symptoms": [
-        "Runny nose",
-        "Loss of appetite",
-        "Teeth grinding",
-        "Lethargy",
-        "Hair loss"
+        {
+          "symptoms": ["Lethargy", "Decreased egg production", "Pale comb"],
+          "disease": ["respiratory problems"]
+        },
+        {
+          "symptoms": ["Difficulty walking", "Swollen abdomen", "Weight loss"],
+          "disease": ["reproductive problems"]
+        },
+        {
+          "symptoms": ["Weakness", "Diarrhea", "Feather loss"],
+          "disease": ["parasites"]
+        }
       ]
     },
     {
       "name": "Hen",
       "description": "Female domesticated chickens raised for egg production.",
       "symptoms": [
-        "Lethargy",
-        "Decreased egg production",
-        "Pale comb",
-        "Difficulty walking",
-        "Swollen abdomen"
+        {
+          "symptoms": ["Lethargy", "Decreased egg production", "Pale comb"],
+          "disease": ["respiratory problems"]
+        },
+        {
+          "symptoms": ["Difficulty walking", "Swollen abdomen", "Weight loss"],
+          "disease": ["reproductive problems"]
+        },
+        {
+          "symptoms": ["Weakness", "Diarrhea", "Feather loss"],
+          "disease": ["parasites"]
+        }
       ]
     }
   ]

@@ -13,6 +13,7 @@ import getLPTheme from "@/app/components/lptheme";
 import animalData from "@/app/components/data.json";
 import MultiActionAreaCard from "./card";
 import { Container, Stack, Typography } from "@mui/material";
+import Features from "./features";
 
 function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
   return (
@@ -137,13 +138,9 @@ export default function SymptomsPage() {
             ></Stack>
           </Stack>
           <MultiActionAreaCard animal={animalData.animals[1]} />
-        </Container>
+              </Container>
+            <Features animal={animalData.animals[1]} />  
       </Box>
-      <Box
-        sx={{ bgcolor: "background.default" }}
-        className="p-4 bg-black"
-      ></Box>
-      {/* <Footer /> */}
     </ThemeProvider>
   );
 }
