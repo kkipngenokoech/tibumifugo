@@ -6,12 +6,10 @@ import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import { useRouter } from "next/router";
 
-export default function MultiActionAreaCard({ animal, onCardClick }) {
-
-    const handleClick = () => {
-      console.log("clicked animal card");
-      onCardClick(animal); // Pass animal ID to the callback
-    };
+export default function MultiActionAreaCard({ animal }) {
+  const handleClick = () => {
+    console.log("clicked animal card");
+  };
 
   return (
     <Card sx={{ maxWidth: 345 }}>
@@ -19,7 +17,7 @@ export default function MultiActionAreaCard({ animal, onCardClick }) {
         <CardMedia
           component="img"
           sx={{ height: 200, objectFit: "cover" }}
-          image={`${animal.name}.jpg`}
+          image={`/${animal.name}.jpg`}
           alt={animal.name}
         />
         <CardContent>
