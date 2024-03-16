@@ -46,7 +46,6 @@ const items = [
 ];
 
 export default function Features({ animal }) {
-  console.log(animal.symptoms);
   const [selectedItemIndex, setSelectedItemIndex] = React.useState(0);
 
   const handleItemClick = (index) => {
@@ -259,7 +258,9 @@ export default function Features({ animal }) {
               pointerEvents: "none",
             }}
           >
-            {animal.symptoms[selectedItemIndex].disease[0]}
+            {selectedItemIndex >= 0 &&
+              selectedItemIndex < animal.symptoms.length &&
+              animal.symptoms[selectedItemIndex].disease[0]}
           </Card>
         </Grid>
       </Grid>

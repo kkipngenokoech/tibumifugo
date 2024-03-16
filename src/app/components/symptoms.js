@@ -57,7 +57,7 @@ ToggleCustomTheme.propTypes = {
   toggleCustomTheme: PropTypes.func.isRequired,
 };
 
-export default function SymptomsPage() {
+export default function SymptomsPage({animal}) {
   const [mode, setMode] = useState("light");
   const [showCustomTheme, setShowCustomTheme] = useState(true);
   const LPtheme = createTheme(getLPTheme(mode));
@@ -137,9 +137,9 @@ export default function SymptomsPage() {
               sx={{ pt: 2, width: { xs: "100%", sm: "auto" } }}
             ></Stack>
           </Stack>
-          <MultiActionAreaCard animal={animalData.animals[1]} />
+          <MultiActionAreaCard animal={animal} />
               </Container>
-            <Features animal={animalData.animals[1]} />  
+            <Features animal={animal} />  
       </Box>
     </ThemeProvider>
   );
